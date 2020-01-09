@@ -20,10 +20,10 @@ body, html {
   
   /* Images used */
   .img1 { background-image: url("adh.jpg"); }
-  .img2 { background-image: url("Dhulikhel Sunrise.jpg"); }
-  .img3 { background-image: url("ULM bayou.jpg"); }
-  .img4 { background-image: url("kathmandu sunset terrace.jpg"); }
-  .img5 { background-image: url("Yellowstone.jpg"); }
+  .img2 { background-image: url("dhulikhel.jpg"); }
+  .img3 { background-image: url("bayou.jpg"); }
+  .img4 { background-image: url("terrace.jpg"); }
+  .img5 { background-image: url("yellowstone.jpg"); }
   .img6 { background-image: url("adh.jpg"); }
   
   /* Position text in the middle of the page/image */
@@ -39,7 +39,8 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 300px;
+    width: 320px;
     padding: 20px;
     text-align: center;
   }
+  
