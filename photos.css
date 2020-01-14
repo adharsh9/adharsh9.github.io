@@ -24,7 +24,8 @@ body, html {
   .img3 { background-image: url("bayou.jpg"); }
   .img4 { background-image: url("terrace.jpg"); }
   .img5 { background-image: url("yellowstone.jpg"); }
-  .img6 { background-image: url("adh.jpg"); }
+  .img6 { background-image: url("fire.jpg"); }
+  .img7 {background-image: url("shelter.jpg");}
   
   /* Position text in the middle of the page/image */
   .bg-text {
