@@ -5,34 +5,38 @@ button{
   font-weight: bold;
   font-size: 20px;
   border: 15px solid #f1f1f1;
-object-fit: fill;
+
   width: 150px;
   height: 150px;
   padding: 50px;
   text-align: center;
-  margin: auto
+
+    display: flex;
+  flex-wrap: wrap;
+
 }
 
-
-
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
+button:hover {
   border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
