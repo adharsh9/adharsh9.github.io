@@ -36,6 +36,11 @@ h6{
 h5{
     color:black;
 }
+ul{
+  position: sticky;
+  top:0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 button{
   
   background-color: silver;  
@@ -65,7 +70,7 @@ button{
     background-size: cover;
     padding:20px;
     margin:20px;
-    box-shadow: 10px 10px rgb(2, 2, 2);
+    /*box-shadow: 10px 10px rgb(2, 2, 2);*/
   }
   .bg-image1 {
     /* Full height */
@@ -77,6 +82,25 @@ button{
     background-size: cover;
     padding:70px;
     margin:20px;
-    box-shadow: 10px 10px rgb(2, 2, 2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .img1 { background-image: url("background.jpg"); }
+
+  .box{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-content: space-around;
+align-items: center;
+/*
+grid-template-columns: auto auto;
+grid-template-rows: 300px;
+justify-content: space-around;
+align-content: center;*/
+
+
+  }
+  .box>div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
